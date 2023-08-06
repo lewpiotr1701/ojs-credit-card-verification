@@ -1,0 +1,11 @@
+{
+  "name": "credit-card-verification",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}

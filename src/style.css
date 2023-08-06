@@ -1,0 +1,81 @@
+@import './styles/normalize.css';
+
+@layer base {
+
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number'] {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield !important;
+  }
+}
+
+body {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(131deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 32px 0 32px;
+}
+
+h2 {
+  font-weight: 400;
+  text-align: center;
+}
+
+.container {
+  width: 400px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+}
+
+.container-input {
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin: 8px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 8px auto;
+  border: 0;
+  border-radius: 4px;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
+
+.container-output {
+  width: 100%;
+}
+
+.output {
+  width: 100%;
+  height: 32px;
+  background-color: #fff;
+  padding: 8px;
+  margin: 8px auto;
+  border-radius: 4px;
+  -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+}
