@@ -1,6 +1,7 @@
 {
   "name": "credit-card-verification",
   "source": "src/index.html",
+  "homepage": "https://lewpiotr1701.github.io/ojs-credit-card-verification",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
