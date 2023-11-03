@@ -3,14 +3,9 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
+    "build": "parcel build"
   },
   "devDependencies": {
-    "parcel": "^2.9.3",
-    "shx": "^0.3.4"
-  },
-  "dependencies": {
-    "push-dir": "^0.4.1"
+    "parcel": "^2.9.3"
   }
 }
